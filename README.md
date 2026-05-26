@@ -28,11 +28,12 @@ Ce fichier se base sur les données de capteurs permanents et, indirectement, su
 * **Étape 2** : Estimer les DJMA pour les sections n'ayant aucune valeur. Pour chaque section 'inconnue', les DJMA estimés correspondent à la moyenne des DJMA par année des sections à proximité sur la même route, ou à la moyenne sur le tronçon ou la route dans le cas où il n'y a pas de section 'connue' à proximité.
 * **Étape 3** : Les VKT (Vehicle Kilometers Traveled) annuels par région sont estimés à partir des DJMA et de la longueur des segments.
 
-### Sources de données
+### Sources de données et environnement
 En plus des données téléchargées automatiquement avec le fichier `telecharger_fichiers.py`, d'autres fichiers sont utilisés dans l'analyse :
 * [Géométrie et données de DJMA estimées des segments (shapefile)](https://www.donneesquebec.ca/recherche/dataset/debit-de-circulation/resource/9de14998-2e3b-4936-a587-2da4f3ddd3af)
 * [Géométrie des régions du Québec (shapefile)](https://www.donneesquebec.ca/recherche/dataset/decoupages-administratifs/resource/a30825b5-82d2-491d-9783-c513fe36f231)
 * [Fichier RTSS contenant notamment la classification des RTSS (geopackage)](https://www.donneesquebec.ca/recherche/dataset/reseau-routier-rtss/resource/d09ba078-fd84-4e2e-96f5-178dd346564b)
+* L'environnement dans lequel l'analyse a été réalisée peut être reproduit à partir du fichier `environment.yml` ou du fichier `requirements.txt`.
 
 ---
 
@@ -65,10 +66,11 @@ This notebook relies on permanent sensor data as well as AADT esitmation from th
 * **Step 2:** Estimating AADT for sections with no historical data. "Unknown" sections are assigned the average AADT of nearby sections on the same route. If no nearby data is available, the estimate is based on the segment or route average for that year.
 * **Step 3:** Calculating annual Vehicle Kilometers Traveled (VKT) per region based on AADT and segment lengths.
 
-### Data Sources
+### Data Sources and Environment
 In addition to the data automatically fetched by `telecharger_fichiers.py`, the analysis utilizes the following files:
 * [Geometry and estimated AADT segment data (Shapefile)](https://www.donneesquebec.ca/recherche/dataset/debit-de-circulation/resource/9de14998-2e3b-4936-a587-2da4f3ddd3af)
 * [Quebec administrative regions (Shapefile)](https://www.donneesquebec.ca/recherche/dataset/decoupages-administratifs/resource/a30825b5-82d2-491d-9783-c513fe36f231)
 * [RTSS file including network classification (GeoPackage)](https://www.donneesquebec.ca/recherche/dataset/reseau-routier-rtss/resource/d09ba078-fd84-4e2e-96f5-178dd346564b)
+* The environment in which the analysis was performed can be reproduced using the `environment.yml` file or the `requirements.txt` file.
 
 ---
