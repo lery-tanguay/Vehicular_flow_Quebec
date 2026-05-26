@@ -33,7 +33,8 @@ En plus des données téléchargées automatiquement avec le fichier `telecharge
 * [Géométrie et données de DJMA estimées des segments (shapefile)](https://www.donneesquebec.ca/recherche/dataset/debit-de-circulation/resource/9de14998-2e3b-4936-a587-2da4f3ddd3af)
 * [Géométrie des régions du Québec (shapefile)](https://www.donneesquebec.ca/recherche/dataset/decoupages-administratifs/resource/a30825b5-82d2-491d-9783-c513fe36f231)
 * [Fichier RTSS contenant notamment la classification des RTSS (geopackage)](https://www.donneesquebec.ca/recherche/dataset/reseau-routier-rtss/resource/d09ba078-fd84-4e2e-96f5-178dd346564b)
-* L'environnement dans lequel l'analyse a été réalisée peut être reproduit à partir du fichier `environment.yml` ou du fichier `requirements.txt`.
+
+L'environnement dans lequel l'analyse a été réalisée peut être reproduit à partir du fichier `environment.yml` ou du fichier `requirements.txt`.
 
 ---
 
@@ -71,6 +72,7 @@ In addition to the data automatically fetched by `telecharger_fichiers.py`, the 
 * [Geometry and estimated AADT segment data (Shapefile)](https://www.donneesquebec.ca/recherche/dataset/debit-de-circulation/resource/9de14998-2e3b-4936-a587-2da4f3ddd3af)
 * [Quebec administrative regions (Shapefile)](https://www.donneesquebec.ca/recherche/dataset/decoupages-administratifs/resource/a30825b5-82d2-491d-9783-c513fe36f231)
 * [RTSS file including network classification (GeoPackage)](https://www.donneesquebec.ca/recherche/dataset/reseau-routier-rtss/resource/d09ba078-fd84-4e2e-96f5-178dd346564b)
-* The environment in which the analysis was performed can be reproduced using the `environment.yml` file or the `requirements.txt` file.
+
+The environment in which the analysis was performed can be reproduced using the `environment.yml` file or the `requirements.txt` file.
 
 ---
